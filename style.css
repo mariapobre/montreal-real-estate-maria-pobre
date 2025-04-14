@@ -230,21 +230,28 @@ header .branding {
  aside {
     font-size: small;
  }
- h2 {margin: 2em 0 2em 0;}
+ h2 {
+	margin: 2rem 0 0.5rem 0;
+}
 
- h3 {margin: 2em 0 2em 0;}
+ h3 {margin: 1rem 0 0.5rem 0;}
 
  h2 + h3 {
-   margin: 1.4em 0 1em 0;
- }
+   margin: 1.4rm 0 1rem 0;}
 
- h4 {margin: 2em 0 2em 0;}
+   h4 {
+    margin: 2rem 0 0.5rem 0;
+  }
 
- h5 {margin: 2em 0 2em 0;}
+ h5 {margin: 2rem 0 1rem 0;}
 
- h6 {margin: 2em 0 2em 0;}
+ h6 {margin: 2rem 0 1rem 0;}
 
- p {margin: 0 0 1em 0;}
+ p {margin: 0 0 1rem 0;}
+
+ address {
+	line-height: 2rem;
+}
 
  label {}
 

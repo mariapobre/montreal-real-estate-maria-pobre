@@ -229,9 +229,11 @@ header .branding {
 
  aside {
     font-size: small;
- }
+ 
+}
+
  h2 {
-	margin: 2rem 0 0.5rem 0;
+	margin: 1.5rem 0 0.5rem 0;
 }
 
  h3 {margin: 1rem 0 0.5rem 0;}
@@ -247,7 +249,9 @@ header .branding {
 
  h6 {margin: 2rem 0 1rem 0;}
 
- p {margin: 0 0 1rem 0;}
+ p {
+	margin: 1rem 0 1rem 0;
+}
 
  address {
 	line-height: 2rem;
@@ -504,7 +508,7 @@ aside {
 
 h1 {
     /* same width as flex-container, if placed outside of flex-container */
-    max-width: 60rem;
+    max-width: 64rem;
     margin: 0 auto;
 }
 

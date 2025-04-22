@@ -238,11 +238,20 @@ header .branding {
 
  h3 {margin: 1rem 0 0.5rem 0;}
 
- h2 + h3 {
-   margin: 1.4rm 0 1rem 0;}
+
+
+
+h2 + h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+h2:has(+ h3) {
+  margin: 1.5rem 0 0 0;
+}
+
 
    h4 {
-    margin: 2rem 0 0.5rem 0;
+    margin: 1rem 0 0.5rem 0;
   }
 
  h5 {margin: 2rem 0 1rem 0;}
@@ -251,6 +260,20 @@ header .branding {
 
  p {
 	margin: 1rem 0 1rem 0;
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 2rem;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 2rem;
+}
+
+li {
+	margin: 0 0 0.5rem 0;
 }
 
  address {
